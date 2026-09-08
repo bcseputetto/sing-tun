@@ -35,7 +35,7 @@ var ErrNetlinkBanned = E.New(
 )
 
 const (
-	routeUpdateBufferSize = 16384
+	routeUpdateBufferSize = 32768
 	linkUpdateBufferSize  = 32
 	addrUpdateBufferSize  = 32
 )
